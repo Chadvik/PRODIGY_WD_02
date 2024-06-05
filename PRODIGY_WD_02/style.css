@@ -1,0 +1,25 @@
+body{
+    background:rgb(255, 177, 20);
+  }
+  #timer{
+    font-size:50px;
+    text-align:center;
+    margin-top:100px;
+  }
+  #start,#reset,#lap{
+    background-color:white;
+    border: 2px solid blue;
+    width:100px;
+    height:30px;
+    margin:5px;
+    border-radius:10px;
+    font-weight:bold;
+     text-align:center;
+  }
+  .button{
+    text-align:center;
+    margin:10px;
+  }
+  #start:hover,#reset:hover,#lap:hover{
+   cursor: pointer;
+  }
